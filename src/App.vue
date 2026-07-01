@@ -1,19 +1,9 @@
-<!-- <script setup>
-import Header from './components/Header.vue'
-</script>
-
 <template>
-  <Header />
-</template>
-
-<style scoped></style> -->
-
-<template>
-  <RouterView />
+  <HomeView />
   <Footer />
 </template>
 
 <script setup>
-import { RouterView } from 'vue-router'
 import Footer from './components/Footer.vue'
+import HomeView from './views/HomeView.vue'
 </script>
